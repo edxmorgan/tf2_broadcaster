@@ -46,3 +46,7 @@ tf2_broadcaster:
     orientation_y_state_interface : orientation.y
     orientation_z_state_interface : orientation.z
 ```
+### Build Workspace
+```bash
+colcon build
+```
