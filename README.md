@@ -1,6 +1,6 @@
 # tf2_broadcaster
 
-Ros2_control plugin publishes sensor values to rviz transformation tree.
+Ros2_control plugin publishes sensor interface values to rviz transformation tree.
 
 ## Library Details
 
