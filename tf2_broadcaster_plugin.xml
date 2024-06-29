@@ -1,7 +1,7 @@
 <library path="tf2_broadcaster">
   <class name="tf2_broadcaster/Tf2Broadcaster" type="tf2_broadcaster::Tf2Broadcaster" base_class_type="controller_interface::ControllerInterface">
   <description>
-    This controller publishes transforms to frames
+    This controller publishes sensor values to rviz transformation tree.
   </description>
   </class>
 </library>

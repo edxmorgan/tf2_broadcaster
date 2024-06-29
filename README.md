@@ -1,6 +1,6 @@
 # tf2_broadcaster
 
-Ros2_control plugin for broadcasting transformed states from sensor
+Ros2_control plugin publishes sensor values to rviz transformation tree.
 
 ## Library Details
 

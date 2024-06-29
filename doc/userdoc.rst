@@ -3,7 +3,7 @@
 tf2_broadcaster
 ==========================
 
-This is a ros2_control plugin for broadcasting transformed states from sensor
+This is a ros2_control plugin publishes sensor values to rviz transformation tree.
 
 
 Hardware interface type
