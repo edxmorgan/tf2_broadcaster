@@ -1,0 +1,90 @@
+tf2_broadcaster:
+  sensor: {
+    type: string,
+    default_value: "",
+    description: "Specifies the sensor source for the readings. This field should be populated with the name or identifier of the sensor from which the transformation data is being broadcasted.",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  child_frame_id: {
+    type: string,
+    default_value: "",
+    description: "The name of the child frame to which transformations are applied.",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  parent_frame_id: {
+    type: string,
+    default_value: "",
+    description: "The name of the parent frame from which transformations originate.",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+  
+  position_x_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  position_y_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  position_z_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  orientation_w_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  orientation_x_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  orientation_y_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
+
+  orientation_z_state_interface: {
+    type: string,
+    default_value: "",
+    description: "",
+    validation: {
+      not_empty<>: null,
+    }
+  }
