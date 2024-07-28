@@ -119,7 +119,7 @@ namespace tf2_broadcaster
         state_interface_types_.size() != ordered_interfaces.size())
     {
       RCLCPP_ERROR(
-          get_node()->get_logger(), "Expected %zu command interfaces, got %zu",
+          get_node()->get_logger(), "Expected %zu state interfaces, got %zu",
           state_interface_types_.size(), ordered_interfaces.size());
       return controller_interface::CallbackReturn::ERROR;
     }
