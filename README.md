@@ -49,11 +49,11 @@ tf2_broadcaster:
 
 ### Include tf2_broadcaster Spawner node in your launch script
 ```python
-    tf2_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["tf2_broadcaster", "--controller-manager", "/controller_manager"],
-    )
+tf2_broadcaster_spawner = Node(
+    package="controller_manager",
+    executable="spawner",
+    arguments=["tf2_broadcaster", "--controller-manager", "/controller_manager"],
+)
 ```
 ### Build Workspace
 ```bash
