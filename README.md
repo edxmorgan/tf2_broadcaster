@@ -46,6 +46,15 @@ tf2_broadcaster:
     orientation_y_state_interface : orientation.y
     orientation_z_state_interface : orientation.z
 ```
+
+### Include tf2_broadcaster Spawner node in your launch script
+```python
+    tf2_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["tf2_broadcaster", "--controller-manager", "/controller_manager"],
+    )
+```
 ### Build Workspace
 ```bash
 colcon build
